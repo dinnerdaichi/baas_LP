@@ -121,8 +121,8 @@ footer {
           filter: drop-shadow(clamp(0.2rem, 0.4166666667vw, 0.375rem) clamp(0.2rem, 0.4166666667vw, 0.375rem) 0 #191872);
 }
 .content.header .button-header:hover {
-  -webkit-transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem));
-          transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem));
+  -webkit-transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem)) translateZ(0);
+          transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem)) translateZ(0);
   -webkit-filter: none;
           filter: none;
 }
@@ -168,8 +168,8 @@ footer {
   }
 }
 .content.bottom .button-reserve:hover {
-  -webkit-transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem));
-          transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem));
+  -webkit-transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem)) translateZ(0);
+          transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem)) translateZ(0);
   -webkit-filter: none;
           filter: none;
 }
@@ -191,8 +191,8 @@ footer {
   }
 }
 .content.bottom .button-download:hover {
-  -webkit-transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem));
-          transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem));
+  -webkit-transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem)) translateZ(0);
+          transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem)) translateZ(0);
   -webkit-filter: none;
           filter: none;
 }
