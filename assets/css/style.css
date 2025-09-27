@@ -128,8 +128,8 @@ footer {
 }
 @media screen and (max-width:767px) {
   .content.header .button-header:hover {
-    -webkit-transform: none;
-            transform: none;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
   }
 }
 
@@ -173,8 +173,8 @@ footer {
 }
 @media screen and (max-width:767px) {
   .content.bottom .button-reserve:hover {
-    -webkit-transform: none;
-            transform: none;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
   }
 }
 .content.bottom .button-download {
@@ -196,7 +196,7 @@ footer {
 }
 @media screen and (max-width:767px) {
   .content.bottom .button-download:hover {
-    -webkit-transform: none;
-            transform: none;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
   }
 }
