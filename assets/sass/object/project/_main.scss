@@ -106,7 +106,7 @@ footer {
   transition: all 0.2s;
   border-radius: 50px;
 
-  @include m.mq(sp){
+  @include m.mq(sp) {
     width: vw-sp(140);
   }
 }
@@ -117,13 +117,13 @@ footer {
 
   .button-header {
     bottom: 8%;
-    box-shadow: rclamp(6) rclamp(6) 0 #191872;
+    filter: drop-shadow(rclamp(6) rclamp(6) 0 #191872);
 
 
 
     &:hover {
       transform: translate(calc(-50% + rclamp(6)), rclamp(6));
-      box-shadow: none;
+      filter: none;
 
     }
   }
@@ -136,11 +136,12 @@ footer {
   .button-more {
     bottom: 7%;
     box-shadow: rclamp(6) rclamp(6) 10px #949494;
+
     width: rclamp(440);
 
-     @include m.mq(sp){
-    width: vw-sp(140);
-  }
+    @include m.mq(sp) {
+      width: vw-sp(140);
+    }
 
 
 
@@ -159,37 +160,42 @@ footer {
 
   .button-reserve {
     bottom: 44.5%;
-    box-shadow: rclamp(6) rclamp(6) 0 white;
+    filter: drop-shadow(rclamp(6) rclamp(6) 0 white);
     width: rclamp(554);
 
-     @include m.mq(sp){
-    width: vw-sp(140);
-  }
+    @include m.mq(sp) {
+      width: vw-sp(140);
+
+    }
 
 
 
     &:hover {
       transform: translate(calc(-50% + rclamp(6)), rclamp(6));
-      box-shadow: none;
+      filter: none;
+
 
     }
   }
 
   .button-download {
     bottom: 29.5%;
-    box-shadow: rclamp(6) rclamp(6) 0 white;
+    filter: drop-shadow(rclamp(6) rclamp(6) 0 white);
+
     width: rclamp(554);
 
-     @include m.mq(sp){
-    width: vw-sp(140);
-  }
+    @include m.mq(sp) {
+      width: vw-sp(140);
+
+    }
 
 
 
 
     &:hover {
       transform: translate(calc(-50% + rclamp(6)), rclamp(6));
-      box-shadow: none;
+      filter: none;
+
 
     }
   }
