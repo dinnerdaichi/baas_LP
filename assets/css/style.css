@@ -145,8 +145,6 @@ footer {
 @media screen and (max-width:767px) {
   .content.more .button-more {
     width: 37.3333333333vw;
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
   }
 }
 .content.more .button-more:hover {
