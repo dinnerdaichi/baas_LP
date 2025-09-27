@@ -125,6 +125,10 @@ footer {
       transform: translate(calc(-50% + rclamp(6)), rclamp(6));
       filter: none;
 
+      @include m.mq(sp){
+         transform: none;
+      }
+
     }
   }
 }
@@ -174,6 +178,10 @@ footer {
       transform: translate(calc(-50% + rclamp(6)), rclamp(6));
       filter: none;
 
+      @include m.mq(sp){
+          transform: none;
+      }
+
 
     }
   }
@@ -195,6 +203,10 @@ footer {
     &:hover {
       transform: translate(calc(-50% + rclamp(6)), rclamp(6));
       filter: none;
+
+      @include m.mq(sp){
+         transform: none;
+      }
 
 
     }

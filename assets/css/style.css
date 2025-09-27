@@ -126,6 +126,12 @@ footer {
   -webkit-filter: none;
           filter: none;
 }
+@media screen and (max-width:767px) {
+  .content.header .button-header:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
 
 .content.more {
   position: relative;
@@ -165,6 +171,12 @@ footer {
   -webkit-filter: none;
           filter: none;
 }
+@media screen and (max-width:767px) {
+  .content.bottom .button-reserve:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
 .content.bottom .button-download {
   bottom: 29.5%;
   -webkit-filter: drop-shadow(clamp(0.2rem, 0.4166666667vw, 0.375rem) clamp(0.2rem, 0.4166666667vw, 0.375rem) 0 white);
@@ -181,4 +193,10 @@ footer {
           transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem));
   -webkit-filter: none;
           filter: none;
+}
+@media screen and (max-width:767px) {
+  .content.bottom .button-download:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
 }
