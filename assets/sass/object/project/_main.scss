@@ -127,6 +127,7 @@ footer {
 
       @include m.mq(sp) {
         transform: translate(-50%, 0);
+        transform: translateZ(0);
       }
 
     }
@@ -145,6 +146,7 @@ footer {
 
     @include m.mq(sp) {
       width: vw-sp(140);
+      transform: translateZ(0);
     }
 
 
@@ -169,6 +171,7 @@ footer {
 
     @include m.mq(sp) {
       width: vw-sp(140);
+      transform: translateZ(0);
 
     }
 
@@ -194,6 +197,7 @@ footer {
 
     @include m.mq(sp) {
       width: vw-sp(140);
+      transform: translateZ(0);
 
     }
 
