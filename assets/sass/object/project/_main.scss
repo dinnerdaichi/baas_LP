@@ -139,13 +139,17 @@ footer {
 
   .button-more {
     bottom: 7%;
-    box-shadow: rclamp(6) rclamp(6) 10px #949494ab;
 
     width: rclamp(440);
 
     @include m.mq(sp) {
       width: vw-sp(140);
-      height: vw-sp(18);
+    }
+
+    img{
+      box-shadow: rclamp(6) rclamp(6) 10px #949494ab;
+
+      border-radius: 50px;
     }
 
 
