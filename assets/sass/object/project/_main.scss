@@ -49,7 +49,7 @@ img {
   width: 100%;
   max-width: 100%;
   height: auto;
-  vertical-align: middle;
+  vertical-align: bottom;
   font-style: italic;
   background-repeat: no-repeat;
   background-size: cover;
@@ -139,7 +139,7 @@ footer {
 
   .button-more {
     bottom: 7%;
-    box-shadow: rclamp(6) rclamp(6) 10px #949494;
+    box-shadow: rclamp(6) rclamp(6) 10px #949494ab;
 
     width: rclamp(440);
 

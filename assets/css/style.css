@@ -53,7 +53,7 @@ img {
   width: 100%;
   max-width: 100%;
   height: auto;
-  vertical-align: middle;
+  vertical-align: bottom;
   font-style: italic;
   background-repeat: no-repeat;
   background-size: cover;
@@ -138,8 +138,8 @@ footer {
 }
 .content.more .button-more {
   bottom: 7%;
-  -webkit-box-shadow: clamp(0.2rem, 0.4166666667vw, 0.375rem) clamp(0.2rem, 0.4166666667vw, 0.375rem) 10px #949494;
-          box-shadow: clamp(0.2rem, 0.4166666667vw, 0.375rem) clamp(0.2rem, 0.4166666667vw, 0.375rem) 10px #949494;
+  -webkit-box-shadow: clamp(0.2rem, 0.4166666667vw, 0.375rem) clamp(0.2rem, 0.4166666667vw, 0.375rem) 10px rgba(148, 148, 148, 0.6705882353);
+          box-shadow: clamp(0.2rem, 0.4166666667vw, 0.375rem) clamp(0.2rem, 0.4166666667vw, 0.375rem) 10px rgba(148, 148, 148, 0.6705882353);
   width: clamp(14.6666666667rem, 30.5555555556vw, 27.5rem);
 }
 @media screen and (max-width:767px) {
