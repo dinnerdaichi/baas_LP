@@ -128,10 +128,8 @@ footer {
 }
 @media screen and (max-width:767px) {
   .content.header .button-header:hover {
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+    -webkit-transform: translate(-50%, 0) translateZ(0);
+            transform: translate(-50%, 0) translateZ(0);
   }
 }
 
@@ -167,8 +165,6 @@ footer {
 @media screen and (max-width:767px) {
   .content.bottom .button-reserve {
     width: 37.3333333333vw;
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
   }
 }
 .content.bottom .button-reserve:hover {
@@ -179,8 +175,8 @@ footer {
 }
 @media screen and (max-width:767px) {
   .content.bottom .button-reserve:hover {
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0) translateZ(0);
+            transform: translate(-50%, 0) translateZ(0);
   }
 }
 .content.bottom .button-download {
@@ -192,8 +188,6 @@ footer {
 @media screen and (max-width:767px) {
   .content.bottom .button-download {
     width: 37.3333333333vw;
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
   }
 }
 .content.bottom .button-download:hover {
@@ -204,7 +198,7 @@ footer {
 }
 @media screen and (max-width:767px) {
   .content.bottom .button-download:hover {
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0) translateZ(0);
+            transform: translate(-50%, 0) translateZ(0);
   }
 }
