@@ -1,0 +1,184 @@
+/*--------------------------------------*
+    * layout
+*--------------------------------------*/
+:root {
+  --color-: #;
+  --color-: #;
+  --color-: #;
+}
+
+/*--------------------------------------*
+    * component
+*--------------------------------------*/
+/*--------------------------------------*
+    * project
+*--------------------------------------*/
+:root {
+  --color-: #;
+  --color-: #;
+  --bg-: #;
+  --bg-: #;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  counter-reset: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75rem;
+}
+
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+@media screen and (max-width:767px) {
+  .pc {
+    display: none;
+  }
+  .sp {
+    display: block;
+  }
+}
+.wrapper {
+  width: 100%;
+  max-width: 1980px;
+  margin-inline: auto;
+}
+
+footer {
+  background-color: #cbdff6;
+  text-align: center;
+  padding-block: clamp(1.6666666667rem, 3.4722222222vw, 3.125rem);
+}
+
+.footer__content p {
+  color: #13123f;
+  font-size: clamp(0.7333333333rem, 1.5277777778vw, 1.375rem);
+  letter-spacing: 0.05em;
+  margin-top: clamp(0.1666666667rem, 0.3472222222vw, 0.3125rem);
+}
+
+.button {
+  width: clamp(19.6666666667rem, 40.9722222222vw, 36.875rem);
+  display: block;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border-radius: 50px;
+}
+@media screen and (max-width:767px) {
+  .button {
+    width: 37.3333333333vw;
+  }
+}
+
+.content.header {
+  position: relative;
+}
+.content.header .button-header {
+  bottom: 8%;
+  -webkit-box-shadow: clamp(0.2rem, 0.4166666667vw, 0.375rem) clamp(0.2rem, 0.4166666667vw, 0.375rem) 0 #191872;
+          box-shadow: clamp(0.2rem, 0.4166666667vw, 0.375rem) clamp(0.2rem, 0.4166666667vw, 0.375rem) 0 #191872;
+}
+.content.header .button-header:hover {
+  -webkit-transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem));
+          transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem));
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.content.more {
+  position: relative;
+}
+.content.more .button-more {
+  bottom: 7%;
+  -webkit-box-shadow: clamp(0.2rem, 0.4166666667vw, 0.375rem) clamp(0.2rem, 0.4166666667vw, 0.375rem) 10px #949494;
+          box-shadow: clamp(0.2rem, 0.4166666667vw, 0.375rem) clamp(0.2rem, 0.4166666667vw, 0.375rem) 10px #949494;
+  width: clamp(14.6666666667rem, 30.5555555556vw, 27.5rem);
+}
+@media screen and (max-width:767px) {
+  .content.more .button-more {
+    width: 37.3333333333vw;
+  }
+}
+.content.more .button-more:hover {
+  opacity: 0.7;
+}
+
+.content.bottom {
+  position: relative;
+}
+.content.bottom .button-reserve {
+  bottom: 44.5%;
+  -webkit-box-shadow: clamp(0.2rem, 0.4166666667vw, 0.375rem) clamp(0.2rem, 0.4166666667vw, 0.375rem) 0 white;
+          box-shadow: clamp(0.2rem, 0.4166666667vw, 0.375rem) clamp(0.2rem, 0.4166666667vw, 0.375rem) 0 white;
+  width: clamp(18.4666666667rem, 38.4722222222vw, 34.625rem);
+}
+@media screen and (max-width:767px) {
+  .content.bottom .button-reserve {
+    width: 37.3333333333vw;
+  }
+}
+.content.bottom .button-reserve:hover {
+  -webkit-transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem));
+          transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem));
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.content.bottom .button-download {
+  bottom: 29.5%;
+  -webkit-box-shadow: clamp(0.2rem, 0.4166666667vw, 0.375rem) clamp(0.2rem, 0.4166666667vw, 0.375rem) 0 white;
+          box-shadow: clamp(0.2rem, 0.4166666667vw, 0.375rem) clamp(0.2rem, 0.4166666667vw, 0.375rem) 0 white;
+  width: clamp(18.4666666667rem, 38.4722222222vw, 34.625rem);
+}
+@media screen and (max-width:767px) {
+  .content.bottom .button-download {
+    width: 37.3333333333vw;
+  }
+}
+.content.bottom .button-download:hover {
+  -webkit-transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem));
+          transform: translate(calc(-50% + clamp(0.2rem, 0.4166666667vw, 0.375rem)), clamp(0.2rem, 0.4166666667vw, 0.375rem));
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}

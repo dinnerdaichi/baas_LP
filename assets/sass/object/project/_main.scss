@@ -1,0 +1,196 @@
+@use "../../foundation/mixin" as m;
+@use "../../foundation/functions" as *;
+
+:root {
+  --color-: #;
+  --color-: #;
+  --bg-: #;
+  --bg-: #;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   margin: 0;
+// }
+
+a {
+  text-decoration: none;
+  counter-reset: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75rem;
+}
+
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+@include m.mq(sp) {
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+}
+
+
+.wrapper {
+  width: 100%;
+  max-width: 1980px;
+  margin-inline: auto;
+}
+
+footer {
+  background-color: #cbdff6;
+  text-align: center;
+  padding-block: rclamp(50);
+}
+
+.footer__content {
+  p {
+    color: #13123f;
+    font-size: rclamp(22);
+    letter-spacing: 0.05em;
+    margin-top: rclamp(5);
+  }
+}
+
+.button {
+  width: rclamp(590);
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.2s;
+  border-radius: 50px;
+
+  @include m.mq(sp){
+    width: vw-sp(140);
+  }
+}
+
+.content.header {
+  position: relative;
+
+
+  .button-header {
+    bottom: 8%;
+    box-shadow: rclamp(6) rclamp(6) 0 #191872;
+
+
+
+    &:hover {
+      transform: translate(calc(-50% + rclamp(6)), rclamp(6));
+      box-shadow: none;
+
+    }
+  }
+}
+
+.content.more {
+  position: relative;
+
+
+  .button-more {
+    bottom: 7%;
+    box-shadow: rclamp(6) rclamp(6) 10px #949494;
+    width: rclamp(440);
+
+     @include m.mq(sp){
+    width: vw-sp(140);
+  }
+
+
+
+    &:hover {
+      // transform: translate(calc(-50% + rclamp(6)), rclamp(6));
+      // box-shadow: none;
+      opacity: 0.7;
+
+    }
+  }
+}
+
+.content.bottom {
+  position: relative;
+
+
+  .button-reserve {
+    bottom: 44.5%;
+    box-shadow: rclamp(6) rclamp(6) 0 white;
+    width: rclamp(554);
+
+     @include m.mq(sp){
+    width: vw-sp(140);
+  }
+
+
+
+    &:hover {
+      transform: translate(calc(-50% + rclamp(6)), rclamp(6));
+      box-shadow: none;
+
+    }
+  }
+
+  .button-download {
+    bottom: 29.5%;
+    box-shadow: rclamp(6) rclamp(6) 0 white;
+    width: rclamp(554);
+
+     @include m.mq(sp){
+    width: vw-sp(140);
+  }
+
+
+
+
+    &:hover {
+      transform: translate(calc(-50% + rclamp(6)), rclamp(6));
+      box-shadow: none;
+
+    }
+  }
+}
